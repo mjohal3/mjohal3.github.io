@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/130956-food-loader.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Mehar Johal",
+  title: "Hi all, I'm",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Backend Software Developer 💻, and avid cook, with experience working on petabyte scale Distributed Systems and low latency applications with Java / Python / JavaScript and all sorts of tools from AWS to AI and everything in between!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1PaA0U2CytZzIpkMlJ9fwlnPBC845Scu8/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/mjohal3",
+  linkedin: "https://www.linkedin.com/in/mehar-s-johal/",
+  gmail: "meharj03@gmail.com",
+  gitlab: "https://gitlab.com/mjohal3",
+  facebook: "https://www.facebook.com/mehar.johal.9/",
+  medium: "https://medium.com/@wellthentbhtbh",
+  stackoverflow: "https://stackoverflow.com/users/13229934/nuclearpasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "BUILD AN INCLUSIVE FUTURE WITH CODE AND A BOUNDLESS CURIOUSITY",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly responsive infrastructure, from database to user interface for your systems of scale"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("☁️ Cloud integration and transitioning with knowledge of AWS, Azure, and Terraform"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🔎 Personal research in Computer Vision analysis of satellite imagery and threat detection / CTF reverse engineering with Ghidra"
     )
   ],
 
@@ -65,52 +65,36 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-c"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
     },
     {
       skillName: "docker",
@@ -126,23 +110,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Georgia Tech",
+      logo: require("./assets/images/gtlogosquare.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "August 2021 - Present",
+      desc: "Specialization in Intelligence and Media",
+      descBullets: [
+        "Relevant Coursework: Data Structures and Algorith, Algorithms and Complexity, Computer Organization, Databases, Computer Graphics, Linear Algebra, Combinatorics",
+        "Clubs: VG Dev, Sikh Student Association"
+      ]
     }
   ]
 };
@@ -153,16 +129,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend/Distributed Systems", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Cloud / AWS",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "UI/UX Design",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +150,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Amazon",
+      companylogo: require("./assets/images/smolamazon.png"),
+      date: "May 2022 – August 2022",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Worked as part of DynamoDB team, managing exabytes of storage for over 250,000 end users",
+        "Implemented and began global rollout to all customers in all availability zones.",
+        "Designed a new infrastructure layout using distributed cache called MemDS to mitigate scalability issues and improve latency for all end users"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Intern",
+      company: "Bloomberg",
+      companylogo: require("./assets/images/bloomberg.jpg"),
+      date: "May 2021 – August 2021",
+      desc: "Worked with Bloomberg’s Compute Automation team, managing a vast variety of hardware in their national datacenters. Developed with Flask Restful API interfaces and ideated a new Python CLI wrapper package from the ground up for deployment. Containerized CLI using B-Package and Kubernetes, and deployed to Terminal."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "ML Teaching Assistant",
+      company: "Columbia University",
+      companylogo: require("./assets/images/columbia.png"),
+      date: "May 2020 – August 2020",
+      desc: "Worked as a teaching assistant for the 2020 Columbia AI4ALL Program. Taught Python and introductory Machine Learning (ML) concepts through Colaboratory, and led discussions on the ethics and social justice implications of AI systems. Also created supplementary Jupyter Notebooks based on current Kaggle and DS trends, and led a 5 person research group to create a KNN Spotify reccomendation algorithm."
     }
   ]
 };
@@ -213,28 +189,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "STARTUPS AND COMPANIES I'VE FOUNDED",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/hsnavigator.jpg"),
+      projectName: "HS Navigator",
+      projectDesc: "Founded 501c3 Non-Profit HS Navigator, (hsnavigator.org), and created a one-stop search tool for high school students searching for pre-college summer opportunities or internship experience. Also launched a summer internship program and webinar series called Young Scholars. Featured on CBS New York, NJ 101.5, and recognized by hundreds of school districts and Roselle City Council as an official school partner.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://hsnavigator.org"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Conrad_Challenge_Logo_RGB.png"),
+      projectName: "Techognize",
+      projectDesc: "Designed and ideated Techognize, a VR/AR educational flashcard to help transfer information from Chrome OS devices to any mobile environment, and assist those with learning disabilities by encouraging interactive studying habits. Recognized by NASA Conrad Challenge and won the 2020 Innovator in Educational Technology",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.conradchallenge.org/2020-conrad-innovators"
         }
       ]
     }
@@ -252,51 +228,32 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Certifications",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "I am certified as a Cloud Practitioner, Solutions Architect Associate, and have the Machine Learning Specialty for AWS!",
+      image: require("./assets/images/Amazon_Web_Services-Logo.wine.png"),
+      imageAlt: "AWS Logo"
+    },
+    {
+      title: "LinkedIn Skill Badges",
+      subtitle:
+        "Passed LinkedIn Skill Assessments for Java, Python, Linux, and Machine Learning",
+      image: require("./assets/images/linkedin.png"),
+      imageAlt: "LinkedIn Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Linkedin",
+          url: "https://linkedin.com/in/mehar-s-johal"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "NASA Conrad Innovator",
+      subtitle: "Won 2020 NASA Conrad Innovation Challenge in Educational Technology",
+      image: require("./assets/images/Conrad_Challenge_Logo_RGB.png"),
+      imageAlt: "Conrad Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Website", url: "https://www.conradchallenge.org/"}
       ]
     }
   ],
@@ -324,7 +281,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -332,15 +289,19 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SPREAD THE KNOWLEDGE, FOLLOWING MY SEVA"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Young Scholar Program",
+      subtitle: "HS Navigator's 2022 and 2021 YSP, attended by over 200 students across the country",
+      event_url: "https://hsnavigator.org/young-scholar-program-2022"
+    },
+    {
+      title: "Sikhs at JP Morgan",
+      subtitle: "Over 100 Sikh professionals from BioTech to YCombinator Startup CEOs gathered together, spreading their knowledge for the progress of the Sikh Youth",
+      event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7009765152350773248?utm_source=share&utm_medium=member_desktop"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -356,25 +317,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1-201-937-6090",
+  email_address: "meharj03@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

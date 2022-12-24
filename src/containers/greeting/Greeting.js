@@ -6,12 +6,18 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import { useTypingText } from "../../useTypingText";
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const { word, stop, start } = useTypingText(
+    ["Mehar", "ਮੇਹਰ", "メハル"],
+    130,
+    20
+  );
   if (!greeting.displayGreeting) {
     return null;
   }
