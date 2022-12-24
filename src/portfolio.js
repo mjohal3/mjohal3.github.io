@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Mehar Johal",
-  title: "Hi all, I'm",
+  title: "Heya! I'm",
   subTitle: emoji(
-    "A passionate Backend Software Developer 💻, and avid cook, with experience working on petabyte scale Distributed Systems and low latency applications with Java / Python / JavaScript and all sorts of tools from AWS to AI and everything in between!"
+    "A passionate Backend Software Developer 💻, amateur cook 🍜, and avid linguist 📙 with experience working on petabyte scale Distributed System applications with Java / Python / AWS and everything in between!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1PaA0U2CytZzIpkMlJ9fwlnPBC845Scu8/view?usp=share_link", // Set to empty to hide the button
@@ -232,7 +232,13 @@ const achievementSection = {
       subtitle:
         "I am certified as a Cloud Practitioner, Solutions Architect Associate, and have the Machine Learning Specialty for AWS!",
       image: require("./assets/images/Amazon_Web_Services-Logo.wine.png"),
-      imageAlt: "AWS Logo"
+      imageAlt: "AWS Logo",
+      footerLink: [
+        {
+          name: "Badge",
+          url: "https://www.credly.com/badges/bc1ba696-1342-4d78-af29-344b71475412/public_url"
+        }
+      ]
     },
     {
       title: "LinkedIn Skill Badges",
@@ -295,12 +301,12 @@ const talkSection = {
   talks: [
     {
       title: "Young Scholar Program",
-      subtitle: "HS Navigator's 2022 and 2021 YSP, attended by over 200 students across the country",
+      subtitle: "HS Navigator's 2022 and 2021 YSP, attended by over 200 students",
       event_url: "https://hsnavigator.org/young-scholar-program-2022"
     },
     {
       title: "Sikhs at JP Morgan",
-      subtitle: "Over 100 Sikh professionals from BioTech to YCombinator Startup CEOs gathered together, spreading their knowledge for the progress of the Sikh Youth",
+      subtitle: "",
       event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7009765152350773248?utm_source=share&utm_medium=member_desktop"
     }
   ],

@@ -57,6 +57,42 @@
   display: inline-block;
   transform-origin: 70% 70%;
 }
+.word {
+  display: block;
+}
+
+.word span {
+  color: #FF4500 !important;
+  position: relative;
+}
+.word span::after {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background: #FF4500 !important;
+  display: block;
+  position: absolute;
+  right: -10px;
+  top: 0;
+  animation: blink 0.5s ease infinite alternate-reverse;
+}
+.word.empty {
+  visibility: hidden;
+}
+
+.word.empty span::after {
+  visibility: visible;
+  right: 0;
+}
+@keyframes blink {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+}
 
 @keyframes wave {
   0% {

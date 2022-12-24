@@ -10,15 +10,10 @@ const BACKWARD = "backward";
 export const useTypingText = (words, keySpeed = 1000, maxPauseAmount = 10) => {
   const [wordIndex, setWordIndex] = useState(0);
   const [currentWord, setCurrentWord] = useState(words[wordIndex].split(""));
-  const [isStopped, setIsStopped] = useState(false);
+  const [isStopped] = useState(false);
   const direction = useRef(BACKWARD);
   const typingInterval = useRef();
   const letterIndex = useRef();
-
-  const stop = () => {
-    clearInterval(typingInterval.current);
-    setIsStopped(true);
-  };
 
   useEffect(() => {
     // Start at 0
@@ -79,8 +74,6 @@ export const useTypingText = (words, keySpeed = 1000, maxPauseAmount = 10) => {
       <span className={`word ${currentWord.length ? "full" : "empty"}`}>
         <span>{currentWord.length ? currentWord.join("") : "0"}</span>
       </span>
-    ),
-    start: () => setIsStopped(false),
-    stop
+    )
   };
 };

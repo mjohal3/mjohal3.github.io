@@ -13,7 +13,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
-  const { word, stop, start } = useTypingText(
+  const {word} = useTypingText(
     ["Mehar", "ਮੇਹਰ", "メハル"],
     130,
     20
@@ -32,6 +32,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
+                {word}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
