@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30b92801.chunk.css",
+    "main.js": "/static/js/main.225b0022.chunk.js",
+    "main.js.map": "/static/js/main.225b0022.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.53768ff6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.53768ff6.js.map",
+    "static/js/2.fe8a30dc.chunk.js": "/static/js/2.fe8a30dc.chunk.js",
+    "static/js/2.fe8a30dc.chunk.js.map": "/static/js/2.fe8a30dc.chunk.js.map",
+    "static/css/3.84e8bef0.chunk.css": "/static/css/3.84e8bef0.chunk.css",
+    "static/js/3.01da6e7b.chunk.js": "/static/js/3.01da6e7b.chunk.js",
+    "static/js/3.01da6e7b.chunk.js.map": "/static/js/3.01da6e7b.chunk.js.map",
+    "static/css/4.a0e048eb.chunk.css": "/static/css/4.a0e048eb.chunk.css",
+    "static/js/4.7e77a6e9.chunk.js": "/static/js/4.7e77a6e9.chunk.js",
+    "static/js/4.7e77a6e9.chunk.js.map": "/static/js/4.7e77a6e9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b7554e636cc7b89513c273e9d5f3cc88.js": "/precache-manifest.b7554e636cc7b89513c273e9d5f3cc88.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.84e8bef0.chunk.css.map": "/static/css/3.84e8bef0.chunk.css.map",
+    "static/css/4.a0e048eb.chunk.css.map": "/static/css/4.a0e048eb.chunk.css.map",
+    "static/css/main.30b92801.chunk.css.map": "/static/css/main.30b92801.chunk.css.map",
+    "static/js/2.fe8a30dc.chunk.js.LICENSE.txt": "/static/js/2.fe8a30dc.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Amazon_Web_Services-Logo.wine.png": "/static/media/Amazon_Web_Services-Logo.wine.a7e580cb.png",
+    "static/media/Conrad_Challenge_Logo_RGB.png": "/static/media/Conrad_Challenge_Logo_RGB.e678f2c0.png",
+    "static/media/columbia.png": "/static/media/columbia.69a58e49.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/gtlogosquare.png": "/static/media/gtlogosquare.ac70dfcf.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/smolamazon.png": "/static/media/smolamazon.a4f12a70.png",
+    "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53768ff6.js",
+    "static/js/2.fe8a30dc.chunk.js",
+    "static/css/main.30b92801.chunk.css",
+    "static/js/main.225b0022.chunk.js"
+  ]
+}
