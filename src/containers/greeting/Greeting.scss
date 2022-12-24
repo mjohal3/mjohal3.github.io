@@ -62,14 +62,14 @@
 }
 
 .word span {
-  color: #FF4500 !important;
+  color: #ff4500 !important;
   position: relative;
 }
 .word span::after {
   content: "";
   width: 8px;
   height: 100%;
-  background: #FF4500 !important;
+  background: #ff4500 !important;
   display: block;
   position: absolute;
   right: -10px;

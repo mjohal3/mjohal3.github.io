@@ -36,10 +36,6 @@ const socialMediaLinks = {
   github: "https://github.com/mjohal3",
   linkedin: "https://www.linkedin.com/in/mehar-s-johal/",
   gmail: "meharj03@gmail.com",
-  gitlab: "https://gitlab.com/mjohal3",
-  facebook: "https://www.facebook.com/mehar.johal.9/",
-  medium: "https://medium.com/@wellthentbhtbh",
-  stackoverflow: "https://stackoverflow.com/users/13229934/nuclearpasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -54,7 +50,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly responsive infrastructure, from database to user interface for your systems of scale"
     ),
-    emoji("☁️ Cloud integration and transitioning with knowledge of AWS, Azure, and Terraform"),
+    emoji(
+      "☁️ Cloud integration and transitioning with knowledge of AWS, Azure, and Terraform"
+    ),
     emoji(
       "🔎 Personal research in Computer Vision analysis of satellite imagery and threat detection / CTF reverse engineering with Ghidra"
     )
@@ -194,7 +192,8 @@ const bigProjects = {
     {
       image: require("./assets/images/hsnavigator.jpg"),
       projectName: "HS Navigator",
-      projectDesc: "Founded 501c3 Non-Profit HS Navigator, (hsnavigator.org), and created a one-stop search tool for high school students searching for pre-college summer opportunities or internship experience. Also launched a summer internship program and webinar series called Young Scholars. Featured on CBS New York, NJ 101.5, and recognized by hundreds of school districts and Roselle City Council as an official school partner.",
+      projectDesc:
+        "Founded 501c3 Non-Profit HS Navigator, (hsnavigator.org), and created a one-stop search tool for high school students searching for pre-college summer opportunities or internship experience. Also launched a summer internship program and webinar series called Young Scholars. Featured on CBS New York, NJ 101.5, and recognized by hundreds of school districts and Roselle City Council as an official school partner.",
       footerLink: [
         {
           name: "Visit Website",
@@ -206,7 +205,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Conrad_Challenge_Logo_RGB.png"),
       projectName: "Techognize",
-      projectDesc: "Designed and ideated Techognize, a VR/AR educational flashcard to help transfer information from Chrome OS devices to any mobile environment, and assist those with learning disabilities by encouraging interactive studying habits. Recognized by NASA Conrad Challenge and won the 2020 Innovator in Educational Technology",
+      projectDesc:
+        "Designed and ideated Techognize, a VR/AR educational flashcard to help transfer information from Chrome OS devices to any mobile environment, and assist those with learning disabilities by encouraging interactive studying habits. Recognized by NASA Conrad Challenge and won the 2020 Innovator in Educational Technology",
       footerLink: [
         {
           name: "Visit Website",
@@ -255,12 +255,11 @@ const achievementSection = {
     },
     {
       title: "NASA Conrad Innovator",
-      subtitle: "Won 2020 NASA Conrad Innovation Challenge in Educational Technology",
+      subtitle:
+        "Won 2020 NASA Conrad Innovation Challenge in Educational Technology",
       image: require("./assets/images/Conrad_Challenge_Logo_RGB.png"),
       imageAlt: "Conrad Logo",
-      footerLink: [
-        {name: "Website", url: "https://www.conradchallenge.org/"}
-      ]
+      footerLink: [{name: "Website", url: "https://www.conradchallenge.org/"}]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -294,20 +293,20 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SPREAD THE KNOWLEDGE, FOLLOWING MY SEVA"
-  ),
+  subtitle: emoji("I LOVE TO SPREAD THE KNOWLEDGE, FOLLOWING MY SEVA"),
 
   talks: [
     {
       title: "Young Scholar Program",
-      subtitle: "HS Navigator's 2022 and 2021 YSP, attended by over 200 students",
+      subtitle:
+        "HS Navigator's 2022 and 2021 YSP, attended by over 200 students",
       event_url: "https://hsnavigator.org/young-scholar-program-2022"
     },
     {
       title: "Sikhs at JP Morgan",
       subtitle: "",
-      event_url: "https://www.linkedin.com/feed/update/urn:li:activity:7009765152350773248?utm_source=share&utm_medium=member_desktop"
+      event_url:
+        "https://www.linkedin.com/feed/update/urn:li:activity:7009765152350773248?utm_source=share&utm_medium=member_desktop"
     }
   ],
   display: true // Set false to hide this section, defaults to true

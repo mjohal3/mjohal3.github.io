@@ -2,22 +2,18 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
+import landingPerson from "../../assets/lottie/landingcode.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import { useTypingText } from "../../useTypingText";
+import {useTypingText} from "../../useTypingText";
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
-  const {word} = useTypingText(
-    ["Mehar", "ਮੇਹਰ", "メハル"],
-    130,
-    20
-  );
+  const {word} = useTypingText(["Mehar", "ਮੇਹਰ", "メハル"], 130, 20);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -31,8 +27,7 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
-                {word}{" "}
+                {greeting.title} {word}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
