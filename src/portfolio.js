@@ -23,7 +23,7 @@ const greeting = {
   username: "Mehar Johal",
   title: "Heya! I'm",
   subTitle: emoji(
-    "A passionate Backend Software Developer 💻, amateur cook 🍜, and avid linguist 📙 with experience working on petabyte scale Distributed System applications with Java / Python / AWS and everything in between!"
+    "Hi! I'm a third year CS major at Georgia Tech 💻, amateur cook 🍜, and avid linguist 📙 with experience working on petabyte scale Distributed System applications with Java / Python / AWS and everything in between!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1PaA0U2CytZzIpkMlJ9fwlnPBC845Scu8/view?usp=share_link", // Set to empty to hide the button
@@ -128,15 +128,15 @@ const techStack = {
   experience: [
     {
       Stack: "Backend/Distributed Systems", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Cloud / AWS",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "UI/UX Design",
-      progressPercentage: "50%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -222,9 +222,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
