@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Mehar Johal",
-  title: "Heya! I'm",
+  title: "Heya, I'm",
   subTitle: emoji(
-    "Hi! I'm a third year CS major at Georgia Tech 💻, amateur cook 🍜, and avid linguist 📙 with experience working on petabyte scale Distributed System applications with Java / Python / AWS and everything in between!"
+    "I'm a third year CS major at Georgia Tech 💻, amateur cook 🍜, and avid linguist 📙 with experience working on petabyte scale Distributed System applications with Java / Python / AWS and everything in between!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1PaA0U2CytZzIpkMlJ9fwlnPBC845Scu8/view?usp=share_link", // Set to empty to hide the button
